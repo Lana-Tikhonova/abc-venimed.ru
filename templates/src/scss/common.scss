@@ -126,7 +126,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 12.4% 8% 12% 12%;
+	padding: 12.4% 8% 10% 12%;
 	position: relative;
 
 	.footer_list {
@@ -167,7 +167,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 12.7% 12.8% 12% 23.5%;
+	padding: 12.7% 12.8% 10% 23.5%;
 	position: relative;
 
 	.logo {
@@ -196,7 +196,9 @@ a {
 		z-index: 2;
 	}
 }
-
+.page_right_header{
+	display: none;
+}
 .page_left_img {
 	position: absolute;
 	bottom: 72px;
@@ -642,6 +644,7 @@ a {
 	}
 
 	.page_right_header {
+		display: block;
 		background: #75d5fe;
 		padding: 40px 50px;
 		margin-left: -50px;
